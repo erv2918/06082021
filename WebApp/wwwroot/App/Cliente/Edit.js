@@ -11,10 +11,10 @@ var ClienteEdit;
             ClienteServicio: function (entity) {
                 console.log(entity);
                 if (entity.ClientesId == null) {
-                    /*return App.AxiosProvider.ClientesGuardar(entity);*/
+                    return App.AxiosProvider.ClientesGuardar(entity);
                 }
                 else {
-                    /*   return App.AxiosProvider.ClientesActualizar(entity);*/
+                    return App.AxiosProvider.ClientesActualizar(entity);
                 }
             },
             Save: function () {
